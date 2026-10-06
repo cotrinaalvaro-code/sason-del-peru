@@ -1,0 +1,144 @@
+/* CONFIGURACIÓN GENERAL*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5E6CA;
+    color: #2B2B2B;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.navbar-personalizada {
+    background-color: #8B0000;
+}
+
+.titulo-menu-seccion {
+    background-color: #EFEFEF;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.titulo-menu {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.linea-decorativa {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.img-titulo-menu{
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+
+.sidebar-categorias {
+    border-radius: 0;
+}
+
+.sidebar-categorias .list-group-item {
+    background-color: transparent;
+    border: none;
+    border-left: 3px solid transparent;
+    padding: 15px 20px;
+    color: #2B2B2B;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.sidebar-categorias .list-group-item:hover {
+    background-color: #EFEFEF;
+}
+
+.sidebar-categorias .list-group-item.active {
+    background-color: #CCCCCC;
+    color: #2B2B2B;
+    border-left: 3px solid #8B0000;
+    font-weight: 600;
+}
+
+.tarjeta-plato {
+    border: 1px solid #CCCCCC;
+    border-radius: 0;
+    background-color: #FFFFFF;
+}
+
+.tarjeta-plato:hover {
+    box-shadow: 0 4px 8px #CCCCCC;
+}
+
+.img-plato {
+    height: 100%;
+    min-height: 180px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.precio {
+    color: #2B2B2B;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.footer-personalizado {
+    background-color: #8B0000;
+    color: white;
+    padding: 30px 0 15px;
+    margin-top: 50px;
+}
+.footer-titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: white;
+
+}
+.footer-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.footer-lista li {
+    margin-bottom: 6px;
+
+}
+.footer-lista a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+    
+}
+.footer-lista a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+.footer-copy {
+    font-size: 0.9rem;
+    color: white;
+}
+.img-reclamaciones {
+    width: 160px;
+    height: auto;
+}
