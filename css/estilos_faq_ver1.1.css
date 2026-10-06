@@ -1,0 +1,198 @@
+/* ================================================= */
+/* VARIABLES GLOBALES                                */
+/* ================================================= */
+:root {
+    --rojo-criollo: #8B0000;
+    --crema: #F5E6CA;
+    --dorado: #D4AF37;
+    --negro: #2B2B2B;
+}
+
+/* ================================================= */
+/* CONFIGURACIÓN GENERAL                             */
+/* ================================================= */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--crema);
+    color: var(--negro);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* ================================================= */
+/* LOGO                                              */
+/* ================================================= */
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+/* ================================================= */
+/* NAVBAR                                            */
+/* ================================================= */
+.navbar-personalizada {
+    background-color: var(--rojo-criollo);
+}
+
+/* ================================================= */
+/* ENCABEZADO FAQ                                    */
+/* ================================================= */
+.titulo-faq {
+    background-color: var(--rojo-criollo);
+    color: white;
+    padding: 60px 0;
+}
+
+.titulo-faq h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.linea-decorativa {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* ================================================= */
+/* TÍTULOS DE CATEGORÍA                              */
+/* ================================================= */
+.categoria-faq {
+    font-family: 'Playfair Display', serif;
+    color: var(--rojo-criollo);
+    font-weight: 700;
+    border-bottom: 2px solid var(--rojo-criollo);
+    padding-bottom: 8px;
+}
+
+/* ================================================= */
+/* TABLA DE PREGUNTAS Y RESPUESTAS                   */
+/* ================================================= */
+.tabla-faq {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.tabla-faq thead tr {
+    background-color: var(--rojo-criollo);
+    color: white;
+}
+
+.tabla-faq thead th {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 14px 20px;
+    letter-spacing: 0.5px;
+}
+
+.tabla-faq tbody tr {
+    border-bottom: 1px solid #e8dccb;
+}
+
+.tabla-faq tbody tr:last-child {
+    border-bottom: none;
+}
+
+.tabla-faq tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+.tabla-faq tbody td {
+    padding: 16px 20px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    vertical-align: top;
+}
+
+.tabla-faq tbody td:first-child {
+    font-weight: 600;
+    color: var(--negro);
+    width: 38%;
+}
+
+.tabla-faq tbody td:last-child {
+    color: #555;
+}
+
+/* ================================================= */
+/* BLOQUE FINAL — CONTACTO                           */
+/* ================================================= */
+.contacto-faq {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+}
+
+.contacto-faq p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.btn-faq {
+    background-color: var(--rojo-criollo);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 10px 30px;
+    border: none;
+}
+
+.btn-faq:hover {
+    background-color: #6a0000;
+    color: white;
+}
+
+/* ================================================= */
+/* FOOTER                                            */
+/* ================================================= */
+.footer-personalizado {
+    background-color: var(--rojo-criollo);
+    color: white;
+    padding: 30px 0 15px;
+    margin-top: 50px;
+}
+.footer-titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: white;
+}
+.footer-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-lista li {
+    margin-bottom: 6px;
+}
+.footer-lista a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+.footer-lista a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+.footer-copy {
+    font-size: 0.9rem;
+    color: white;
+}
+.img-reclamaciones {
+    width: 160px;
+    height: auto;
+}

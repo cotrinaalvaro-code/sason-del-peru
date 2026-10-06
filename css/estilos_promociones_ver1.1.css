@@ -1,0 +1,138 @@
+:root {
+    --rojo-criollo: #8B0000;
+    --crema: #F5E6CA;
+    --dorado: #D4AF37;
+    --negro: #2B2B2B;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--crema);
+    color: var(--negro);
+}
+
+.wrapper-contenido {
+    flex: 1;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.navbar-personalizada {
+    background-color: var(--rojo-criollo);
+}
+
+/* ================================================= */
+/* ENCABEZADO PROMOCIONES                            */
+/* ================================================= */
+.titulo-promociones {
+    background-color: var(--rojo-criollo);
+    color: white;
+    padding: 60px 0;
+}
+
+.titulo-promociones h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.linea-decorativa {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.promo-card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    background-color: white;
+}
+
+.promo-card:hover {
+    transform: translateY(-10px);
+}
+
+.promo-card .card-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--rojo-criollo);
+    margin-bottom: 15px;
+}
+
+.precio {
+    color: var(--dorado);
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.btn-dorado {
+    background-color: var(--dorado);
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+.btn-dorado:hover {
+    background-color: #c89d17;
+    color: white;
+}
+
+.footer-personalizado {
+    background-color: var(--rojo-criollo);
+    color: white;
+    padding: 30px 0 15px;
+    margin-top: 50px;
+}
+
+.footer-titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.footer-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-lista li {
+    margin-bottom: 6px;
+}
+
+.footer-lista a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.footer-lista a:hover {
+    color: rgba(255,255,255,0.75);
+}
+
+.footer-copy {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.img-reclamaciones {
+    width: 160px;
+    height: auto;
+}

@@ -1,0 +1,210 @@
+/* ================================================= */
+/* VARIABLES GLOBALES                                */
+/* ================================================= */
+:root {
+    --rojo-criollo: #8B0000;
+    --crema: #F5E6CA;
+    --dorado: #D4AF37;
+    --negro: #2B2B2B;
+}
+
+/* ================================================= */
+/* CONFIGURACIÓN GENERAL                             */
+/* ================================================= */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--crema);
+    color: var(--negro);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* ================================================= */
+/* LOGO                                              */
+/* ================================================= */
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+/* ================================================= */
+/* NAVBAR                                            */
+/* ================================================= */
+.navbar-personalizada {
+    background-color: var(--rojo-criollo);
+}
+
+/* ================================================= */
+/* ENCABEZADO TRABAJA                                */
+/* ================================================= */
+.titulo-trabaja {
+    background-color: var(--rojo-criollo);
+    color: white;
+    padding: 60px 0;
+}
+
+.titulo-trabaja h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.linea-decorativa {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* ================================================= */
+/* INTRODUCCIÓN                                      */
+/* ================================================= */
+.intro-trabaja {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 35px;
+    line-height: 1.7;
+}
+
+/* ================================================= */
+/* IMAGEN LATERAL                                    */
+/* ================================================= */
+.contenedor-imagen {
+    width: 100%;
+    height: 100%;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* ================================================= */
+/* FORMULARIO                                        */
+/* ================================================= */
+.seccion-form {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.seccion-titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--rojo-criollo);
+    border-bottom: 2px solid var(--crema);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--negro);
+}
+
+.form-control,
+.form-select {
+    border: 1px solid #d9c9b0;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--rojo-criollo);
+    box-shadow: 0 0 0 0.2rem rgba(139, 0, 0, 0.15);
+}
+
+/* ================================================= */
+/* BOTONES                                           */
+/* ================================================= */
+.btn-limpiar {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.btn-limpiar:hover {
+    background-color: #5a6268;
+    color: white;
+}
+
+.btn-enviar {
+    background-color: var(--rojo-criollo);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.btn-enviar:hover {
+    background-color: #6a0000;
+    color: white;
+}
+
+/* ================================================= */
+/* FOOTER                                            */
+/* ================================================= */
+.footer-personalizado {
+    background-color: var(--rojo-criollo);
+    color: white;
+    padding: 30px 0 15px;
+    margin-top: 50px;
+}
+
+.footer-titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.footer-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-lista li {
+    margin-bottom: 6px;
+}
+
+.footer-lista a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.footer-lista a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-copy {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.img-reclamaciones {
+    width: 160px;
+    height: auto;
+}
